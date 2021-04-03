@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: a84c731a3d94cff4ca38d2dc979a59fd
+guid: 435e0490ca9b9d34e9581710b6cf4953
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -867561851619585449
-    second: pipo-charachip022d_0
+      213: 4154455216249370244
+    second: pipo-charachip022a_0
   - first:
-      213: -8661240354166842958
-    second: pipo-charachip022d_1
+      213: 6192871405447727105
+    second: pipo-charachip022a_1
   - first:
-      213: 6835236499208412078
-    second: pipo-charachip022d_2
+      213: -6280726545552554673
+    second: pipo-charachip022a_2
   - first:
-      213: 1994833564013723107
-    second: pipo-charachip022d_3
+      213: 7198996145137986817
+    second: pipo-charachip022a_3
   - first:
-      213: 1153211370623333464
-    second: pipo-charachip022d_4
+      213: 330015911338148964
+    second: pipo-charachip022a_4
   - first:
-      213: 3959166942008663261
-    second: pipo-charachip022d_5
+      213: 8120167272076167731
+    second: pipo-charachip022a_5
   - first:
-      213: -9006274819573250280
-    second: pipo-charachip022d_6
+      213: 3091702728628872249
+    second: pipo-charachip022a_6
   - first:
-      213: 882328465755732167
-    second: pipo-charachip022d_7
+      213: 6137129759677646412
+    second: pipo-charachip022a_7
   - first:
-      213: 4959440734945993768
-    second: pipo-charachip022d_8
+      213: -796881692526395016
+    second: pipo-charachip022a_8
   - first:
-      213: 2474482481469812674
-    second: pipo-charachip022d_9
+      213: -4381582842369139593
+    second: pipo-charachip022a_9
   - first:
-      213: -4278276674108042285
-    second: pipo-charachip022d_10
+      213: 7577416331839489151
+    second: pipo-charachip022a_10
   - first:
-      213: 3954794721955663872
-    second: pipo-charachip022d_11
+      213: 6572302269410709481
+    second: pipo-charachip022a_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -68,7 +68,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -149,201 +149,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pipo-charachip022d_0
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 95
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 752d88da71dc5f3f0800000000000000
-      internalID: -867561851619585449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 96
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b95b9f79c71dc780800000000000000
-      internalID: -8661240354166842958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_2
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 96
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eab1a13a163abde50800000000000000
-      internalID: 6835236499208412078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_3
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 64
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ed7011be821fab10800000000000000
-      internalID: 1994833564013723107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_4
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 32
-        width: 26
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 854f1f0b1a7010010800000000000000
-      internalID: 1153211370623333464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_5
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 32
-        width: 25
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddc55e07b59c1f630800000000000000
-      internalID: 3959166942008663261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_6
+      name: pipo-charachip022a_0
       rect:
         serializedVersion: 2
         x: 3
-        y: 0
-        width: 27
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8178ac5d4c8430380800000000000000
-      internalID: -9006274819573250280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_7
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 0
-        width: 27
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c8f5989019ae3c00800000000000000
-      internalID: 882328465755732167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_8
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 64
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 824ee0b721973d440800000000000000
-      internalID: 4959440734945993768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pipo-charachip022d_9
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 32
-        width: 29
+        y: 95
+        width: 28
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -352,18 +163,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf6feed4b0275220800000000000000
-      internalID: 2474482481469812674
+      spriteID: 486ffc7020797a930800000000000000
+      internalID: 4154455216249370244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipo-charachip022d_10
+      name: pipo-charachip022a_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 65
+        x: 37
+        y: 95
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c2656bbf71f550800000000000000
+      internalID: 6192871405447727105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 95
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4549f8cb7066d8a0800000000000000
+      internalID: -6280726545552554673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d2b522ad8f7e360800000000000000
+      internalID: 7198996145137986817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
         width: 27
         height: 31
       alignment: 0
@@ -373,20 +247,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d353fc380280a4c0800000000000000
-      internalID: -4278276674108042285
+      spriteID: 464898d09b3749400800000000000000
+      internalID: 330015911338148964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pipo-charachip022d_11
+      name: pipo-charachip022a_5
       rect:
         serializedVersion: 2
-        x: 35
+        x: 2
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a4ad88c11a0b070800000000000000
+      internalID: 8120167272076167731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934a70b404fe7ea20800000000000000
+      internalID: 3091702728628872249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46801220077b2550800000000000000
+      internalID: 6137129759677646412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_8
+      rect:
+        serializedVersion: 2
+        x: 36
         y: 1
-        width: 27
-        height: 31
+        width: 25
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,8 +331,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000d1c1a8d042e630800000000000000
-      internalID: 3954794721955663872
+      spriteID: 871c3fc9258e0f4f0800000000000000
+      internalID: -796881692526395016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c14a69e9d7133c0800000000000000
+      internalID: -4381582842369139593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 30
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f744986c104682960800000000000000
+      internalID: 7577416331839489151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-charachip022a_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef08bca712853b50800000000000000
+      internalID: 6572302269410709481
       vertices: []
       indices: 
       edges: []
