@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
-
+/// <summary>
+/// ƒCƒxƒ“ƒg‚ÌŽí—Þ
+/// </summary>
 [System.Serializable]
 public class EventData
 {
