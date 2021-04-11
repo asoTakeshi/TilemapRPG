@@ -9,6 +9,13 @@ public class NonPlayerCharacter : MonoBehaviour
     private DialogController dialogController;　　// DialogController スクリプトの情報を代入するための変数
     private Vector3 defaltPos;      //Vector3型に変数defaltPosを宣言
     private Vector3 offsetPos;　　　//Vector3型に変数offsetPosを宣言
+    private EventData.EventType eventType = EventData.EventType.Talk;  // NPC とのイベントは会話イベントとして設定
+
+    [SerializeField, Header("NPC 会話イベントの通し番号")]
+    private int npcTalkEventNo;     // この番号と上記の EventType を使って、スクリプタブル・オブジェクト内から会話イベントのデータを取得します
+
+    [SerializeField, Header("NPC 会話イベントのデータ")]
+    private EventData eventData;
 
 
     private void Start()
@@ -19,6 +26,9 @@ public class NonPlayerCharacter : MonoBehaviour
         defaltPos = dialogController.transform.position;
         //Vector3型の変数offsetPosにdialogController.transform.position.xとdialogController.transform.position.y (yが- 5.5f)とdialogController.transform.position.zを代入
         offsetPos = new Vector3(dialogController.transform.position.x, dialogController.transform.position.y - 5.5f, dialogController.transform.position.z);
+
+        // DataBaseManager に登録してあるスクリプタブル・オブジェクトを検索し、指定した通し番号の EventData を NPC 用の EventData として取得して代入
+        eventData = DataBaseManager.instance.GetEventDataFromNPCEvent(npcTalkEventNo);
     }
 
     /// <summary>
@@ -48,10 +58,9 @@ public class NonPlayerCharacter : MonoBehaviour
         }
 
         // 会話イベントのウインドウを表示する
-        dialogController.DisplayDialog();
+           dialogController.DisplayDialog(eventData);
 
         //Debug.Log("会話ウインドウを開く");
-
     }
 
     /// <summary>

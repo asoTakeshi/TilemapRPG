@@ -33472,8 +33472,12 @@ MonoBehaviour:
   txtDialog: {fileID: 176869313}
   txtTitleName: {fileID: 1321032760}
   canvasGroup: {fileID: 1505134863}
-  titleName: "\u5C11\u5973"
-  dialog: "\u3053\u3093\u306B\u3061\u306F"
+  eventData:
+    eventType: 0
+    no: 0
+    title: 
+    dialog: 
+    sprite: {fileID: 0}
 --- !u!1 &1606094123
 GameObject:
   m_ObjectHideFlags: 0
@@ -33592,6 +33596,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTalking: 0
+  npcTalkEventNo: 0
+  eventData:
+    eventType: 0
+    no: 0
+    title: 
+    dialog: 
+    sprite: {fileID: 0}
 --- !u!61 &1606094128
 BoxCollider2D:
   m_ObjectHideFlags: 0
