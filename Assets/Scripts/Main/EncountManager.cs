@@ -35,7 +35,7 @@ public class EncountManager : MonoBehaviour
             // TODO プレイヤーキャラの位置と方向の情報を保存
 
             // TODO Battle シーンへ遷移
-
+            GameData.instance.SetEncountPlayerPosAndDirection(playerController.transform.position, playerController.GetLookDirection());
             // Battle シーンへ遷移
             SceneStateManager.instance.NextScene(SceneStateManager.SceneType.Battle);
         }
