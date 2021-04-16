@@ -16,13 +16,7 @@ public class DialogController : MonoBehaviour
     [SerializeField]　　　　　　　　　　　　　　//インスペクターウインドウで編集できるようにする
     private CanvasGroup canvasGroup = null;　　//変数にcanvasGroupnull(無し)を代入
 
-    //[SerializeField]　　　　　　　　　　　　　//インスペクターウインドウで編集できるようにする
-    //private string titleName = "少女";　　　　//変数TitleNameに文字列　"少女"　をを代入
-
-    //[SerializeField]　　　　　　　　　　　　　//インスペクターウインドウで編集できるようにする
-    //private string dialog = "こんにちは";　　//変数TitleNameに文字列　"こんにちは"　をを代入
-
-    [SerializeField]                           //代入されたか確認できるようにインスペクターに表示する。確認が終了したら、SerializeField属性 は削除してもよいです
+    //[SerializeField]                           //代入されたか確認できるようにインスペクターに表示する。確認が終了したら、SerializeField属性 は削除してもよいです
     private EventData eventData;               // NonPlayerCharacter スクリプトから EventData の情報がメソッドの引数を通じて届きますので、それを代入するための変数
 
     private void Start()
