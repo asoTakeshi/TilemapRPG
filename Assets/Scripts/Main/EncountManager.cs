@@ -26,15 +26,13 @@ public class EncountManager : MonoBehaviour
 
         int encountRate = Random.Range(0, GameData.instance.randomEncountRate);
 
-        if (encountRate == 0)
+        if (encountRate == 5)
         {
             //Debug.Log("エンカウント : " + encountRate);
 
             GameData.instance.isEncouting = true;
 
-            // TODO プレイヤーキャラの位置と方向の情報を保存
-
-            // TODO Battle シーンへ遷移
+            //  プレイヤーキャラの位置と方向の情報を保存
             GameData.instance.SetEncountPlayerPosAndDirection(playerController.transform.position, playerController.GetLookDirection());
             // Battle シーンへ遷移
             SceneStateManager.instance.NextScene(SceneStateManager.SceneType.Battle);
