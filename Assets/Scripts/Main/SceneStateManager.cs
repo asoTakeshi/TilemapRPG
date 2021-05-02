@@ -14,6 +14,7 @@ public class SceneStateManager : MonoBehaviour
 
         //TODO 新しいシーンを作成したら、列挙子にもシーン名を登録する
     }
+
     private void Awake()
     {
         if (instance == null)
@@ -26,12 +27,11 @@ public class SceneStateManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     /// <summary>
     /// 引数で指定したシーンへシーン遷移
     /// </summary>
     /// <param name="nextSceneType"></param>
-
-
     public void NextScene(SceneType nextSceneType)
     {
         // シーン名を指定する引数には、enum である SceneType の列挙子を、 ToString メソッドを使って string 型へキャストして利用

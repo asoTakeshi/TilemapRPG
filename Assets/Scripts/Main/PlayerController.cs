@@ -87,6 +87,7 @@ public class PlayerController : MonoBehaviour
         {
             // ランダムエンカウントが発生するか判定
             encountManager.JudgeRandomEncout();
+            //Debug.Log("文字列");
         }
     }
 
