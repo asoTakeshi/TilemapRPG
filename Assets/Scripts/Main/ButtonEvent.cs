@@ -45,7 +45,7 @@ public class ButtonEvent : MonoBehaviour
 	//　ボタンから移動したら情報を削除
 	public void OnDeselected()
 	{
-		informationText.text = "";
+		//informationText.text = "";
 	}
 
 	//　ステータスウインドウを非アクティブにする

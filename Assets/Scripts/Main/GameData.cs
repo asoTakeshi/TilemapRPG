@@ -13,6 +13,18 @@ public class GameData : MonoBehaviour
     private Vector3 currentPlayerPos;       // エンカウント時のプレイヤーキャラの位置の情報を保持するための変数
     private Vector2 currentLookDirection;    // エンカウント時のプレイヤーキャラの方向の情報を保持するための変数
 
+    [System.Serializable]
+    public class ItemInventryData
+    {
+        public ItemName itemName;    //アイテムの名前
+        public int count;            // 所持数
+        public int number;           // 所持している通し番号
+    }
+
+
+    [Header("所持アイテムのリスト")]
+    public List<ItemInventryData> itemInventryDatasList = new List<ItemInventryData>();
+
 
     void Awake()
     {
@@ -62,5 +74,21 @@ public class GameData : MonoBehaviour
     {
         // 保持している情報を戻す
         return currentLookDirection;
+    }
+
+    /// <summary>
+    /// ItemInvetryDatasList の最大数を取得
+    /// </summary>
+    /// <returns></returns>
+
+    public int GetItemInventryListCount()
+    {
+        return itemInventryDatasList.Count;
+    }
+
+
+    public ItemInventryData GetItemInventryData(int no)
+    {
+        return itemInventryDatasList[no];
     }
 }
