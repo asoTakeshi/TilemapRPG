@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 lookDirection = new Vector2(0, -1.0f);   // キャラの向きの情報の設定用
     public bool isTalking;                      // 会話イベント中かどうかの判定用。true の場合には会話イベント中
     private EncountManager encountManager;       // EncountManager クラスの情報を代入するための変数 
-
-
+    public GameObject ObjGet;
+    
 
 
     void Start()
@@ -55,6 +55,13 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        if (this.ObjGet.activeSelf)
+        {
+            this.ObjGet.SetActive(true);
+
+            return;
+        }
+       
 
         // InputManager の Horizontal に登録してあるキーが入力されたら、水平(横)方向の入力値として代入
         horizontal = Input.GetAxis("Horizontal");

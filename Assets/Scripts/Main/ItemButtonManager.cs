@@ -25,7 +25,7 @@ public class ItemButtonManager : MonoBehaviour
     /// </summary>
     public void CreateItemButtonDetails()
     {
-        Debug.Log("作成");
+        //Debug.Log("作成");
         DestoyItemButtonDetails();
 
         // 所持しているアイテムの分だけインスタンスする

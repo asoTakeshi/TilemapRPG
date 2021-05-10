@@ -48,3 +48,13 @@ MonoBehaviour:
     itemName: 9
     itemType: 3
     itemInfo: "\u9B54\u529B20\u56DE\u5FA9"
+  - itemNo: 7
+    itemSprite: {fileID: 8659724744157873007, guid: f238db3045e6373499046454c038ee96, type: 3}
+    itemName: 10
+    itemType: 1
+    itemInfo: "\u9AD8\u304F\u58F2\u308C\u308B"
+  - itemNo: 8
+    itemSprite: {fileID: 8659724744157873007, guid: f238db3045e6373499046454c038ee96, type: 3}
+    itemName: 7
+    itemType: 2
+    itemInfo: "\u30BF\u30FC\u30F3\u7D42\u4E86\u5F8CHP\u3092\u56DE\u5FA9\u3059\u308B"

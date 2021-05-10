@@ -34,6 +34,7 @@ public class ItemButtonDetail : MonoBehaviour
         imgItem.sprite = this.itemData.itemSprite;
     }
 
+
     /// <summary>
     /// ボタンのアクティブ状態の切り替え
     /// </summary>
