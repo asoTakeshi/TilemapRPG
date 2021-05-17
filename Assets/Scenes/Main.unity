@@ -34256,7 +34256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   isTalking: 0
-  ObjGet: {fileID: 438124524}
+  statusWindowobj: {fileID: 438124524}
 --- !u!50 &1197350635
 Rigidbody2D:
   serializedVersion: 4
