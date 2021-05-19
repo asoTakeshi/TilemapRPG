@@ -34637,13 +34637,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   randomEncountRate: 100
   isEncouting: 0
-  isDebug: 0
+  isDebug: 1
   itemInventryDatasList:
   - itemName: 0
-    count: 10
+    count: 2
     number: 0
-  - itemName: 8
-    count: 10
+  - itemName: 1
+    count: 3
     number: 1
 --- !u!4 &1358624280
 Transform:
